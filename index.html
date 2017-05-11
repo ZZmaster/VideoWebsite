@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Video</title>
+
+    <!-- font -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oxygen:400,300,700" />
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" />
+
+    <!-- my style -->
+    <link rel="stylesheet" href="/style/style.css" />
+
+  </head>
+  <body>
+    <div class="container">
+      <!-- video -->
+      <div class="videoDiv">
+
+        <div class="content">
+          <h1 class="content__heading">Welcome To My Product</h1>
+          <p class="content__teaser">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit qui voluptatum enim est deserunt assumenda, aspernatur quam aperiam!</p>
+          <a href="#" class="content__cta">Buy It Now!</a>
+        </div>
+
+        <video autoplay="autoplay" class="video" loop="loop" muted="" id="video">
+          <source src="media/demo.mp4" type="video/mp4" />
+          <!-- <a target="_blank" href="#">link</a> to download the video. -->
+        </video>
+      </div>
+
+      <!-- why us -->
+      <div class="row whyUs">
+        <h1 class="whyUs__head">Why Us?</h1>
+
+        <div class="col-md-4 text-justify text-center whyUs__col">
+          <span class="glyphicon glyphicon-facetime-video whyUs__icon text-center"></span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <div class="col-md-4 text-justify whyUs__col">
+          <span class="glyphicon glyphicon-zoom-in whyUs__icon"></span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <div class="col-md-4 text-justify whyUs__col">
+          <span class="glyphicon glyphicon-home whyUs__icon"></span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- water -->
+    <div class="container-fluid" id="waterContainer">
+      <div class="row water">
+        <div class="water__content">
+          <h1>Drinkable</h1>
+          <p>Raclette hammock kogi tilde taxidermy, scenester blue bottle post-ironic put a bird on it listicle vinyl chartreuse iPhone ennui fixie.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- list -->
+    <div class="container">
+        <div class="row pricing">
+          <h1 class="pricing__head">Pricing</h1>
+          <ul id="priceList">
+          </ul>
+
+          <template id="list-template">
+            <li><span class="name">{{name}}</span><span class="price">{{price}}$</span></li>
+          </template>
+        </div>
+      </div>
+
+
+    <!-- mustache -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+    <!-- my js -->
+    <script src="script/main.js"></script>
+  </body>
+</html>

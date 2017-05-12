@@ -1,5 +1,5 @@
 $accentColor : rgb(255,60,100);
-$backColor : #EAEAEA;
+$backColor : white;
 $margin : 24px;
 $padding : 24px;
 $sectionPadding : 50px;
@@ -35,7 +35,7 @@ body {
   &__heading {
     padding-bottom: $padding;
     color: $headTextColor;
-    font-size: 44px;
+    font-size: 88px;
   }
 
   &__teaser {

@@ -19,24 +19,24 @@ body {
   display: table-cell;
   vertical-align: middle;
   width: 100%; }
-  .content__heading {
-    padding-bottom: 24px;
-    color: #272727;
-    font-size: 44px; }
-  .content__teaser {
-    padding-bottom: 24px;
-    color: #595959;
-    font-size: 22px; }
-  .content__cta {
-    display: inline-block;
-    margin: 0;
-    padding: 12px 48px;
-    color: #ff3c64;
-    font-size: 22px;
-    text-decoration: none !important;
-    border: 4px solid #ff3c64; }
-    .content__cta:hover, .content__cta:focus {
-      color: #ff3c64; }
+.content__heading {
+  padding-bottom: 24px;
+  color: #272727;
+  font-size: 44px; }
+.content__teaser {
+  padding-bottom: 24px;
+  color: #595959;
+  font-size: 22px; }
+.content__cta {
+  display: inline-block;
+  margin: 0;
+  padding: 12px 48px;
+  color: #ff3c64;
+  font-size: 22px;
+  text-decoration: none !important;
+  border: 4px solid #ff3c64; }
+.content__cta:hover, .content__cta:focus {
+  color: #ff3c64; }
 
 .video {
   position: absolute;
@@ -58,27 +58,25 @@ body {
   padding-bottom: 50px;
   height: auto;
   overflow: hidden; }
-  .whyUs__head {
-    padding-bottom: 24px;
-    color: #272727;
-    font-size: 44px;
-    text-align: center; }
-  .whyUs__col {
-    padding-bottom: 24px;
-    color: #595959;
-    font-size: 22px; }
-  .whyUs__icon {
-    margin: 0 auto;
-    text-align: center;
-    display: block;
-    font-size: 44px;
-    padding-bottom: 24px;
-    color: #ff3c64; }
+.whyUs__head {
+  padding-bottom: 24px;
+  color: #272727;
+  font-size: 44px;
+  text-align: center; }
+.whyUs__col {
+  padding-bottom: 24px;
+  color: #595959;
+  font-size: 22px; }
+.whyUs__icon {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  font-size: 44px;
+  padding-bottom: 24px;
+  color: #ff3c64; }
 
 #waterContainer {
-  overflow: hidden; }
-
-.water {
+  overflow: hidden;
   height: 50vh;
   width: 100%;
   background-image: url("../media/water.jpg");
@@ -86,43 +84,39 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: table;
   margin-bottom: 50px; }
-  .water__content {
-    max-width: 500px;
-    color: white;
-    display: table-cell;
-    vertical-align: middle; }
-    .water__content h1 {
-      margin-bottom: 24px;
-      color: #ff3c64;
-      padding-top: 24px;
-      font-size: 44px;
-      margin-left: 30%; }
-    .water__content p {
-      margin-bottom: 24px;
-      color: white;
-      font-size: 22px;
-      max-width: 500px;
-      margin-left: 30%; }
+
+.water__content {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid white; }
+.water__content h1 {
+  margin-bottom: 24px;
+  color: #ff3c64;
+  padding-top: 24px;
+  font-size: 44px; }
+.water__content p {
+  margin-bottom: 24px;
+  font-size: 22px;
+  color: white; }
 
 .pricing {
   text-align: center; }
-  .pricing__head {
-    padding-bottom: 24px;
-    color: #272727;
-    font-size: 44px; }
-  .pricing li {
-    list-style-type: none;
-    padding-bottom: 24px;
-    color: #595959;
-    font-size: 22px;
-    width: auto; }
-  .pricing .name {
-    color: #ff3c64;
-    font-weight: bold; }
-  .pricing .price {
-    margin-left: 5%;
-    border: 2px solid #595959;
-    display: inline-block;
-    width: 15%; }
+.pricing__head {
+  padding-bottom: 24px;
+  color: #272727;
+  font-size: 44px; }
+.pricing li {
+  list-style-type: none;
+  padding-bottom: 24px;
+  color: #595959;
+  font-size: 22px;
+  width: auto; }
+.pricing .name {
+  color: #ff3c64;
+  font-weight: bold; }
+.pricing .price {
+  margin-left: 5%;
+  border: 2px solid #595959;
+  display: inline-block;
+  width: 15%; }

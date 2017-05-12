@@ -7,7 +7,7 @@ $(function () {
   var $list = $("#priceList");
 
   $.ajax({
-    url: "../data/MOCK_DATA.json",
+    url: "./data/MOCK_DATA.json",
     dataType: "json",
     success: function(data) {
       $.each(data, function(i, item){

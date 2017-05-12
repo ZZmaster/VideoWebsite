@@ -19,26 +19,39 @@
 
     <!-- my style -->
     <link rel="stylesheet" href="./style/style.css" />
+    <!-- player style -->
+    <link rel="stylesheet" href="./style/player.css" />
 
   </head>
   <body>
-    <div class="container">
-      <!-- video -->
-      <div class="videoDiv">
+    <!-- video -->
+    <div class="homepage-hero-module">
 
+      <div class="video-container">
+        <!-- content -->
         <div class="content">
           <h1 class="content__heading">Welcome To My Product</h1>
           <p class="content__teaser">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit qui voluptatum enim est deserunt assumenda, aspernatur quam aperiam!</p>
           <a href="#" class="content__cta">Buy It Now!</a>
         </div>
 
-        <video autoplay="autoplay" class="video" loop="loop" muted="" id="video">
-          <source src="media/demo.mp4" type="video/mp4" />
-          <!-- <a target="_blank" href="#">link</a> to download the video. -->
-        </video>
-      </div>
+        <div class="filter"></div>
 
-      <!-- why us -->
+
+
+          <!-- player -->
+        <video autoplay loop class="fillWidth">
+          <source src="./media/Cloudy-water.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+          <source src="./media/Cloudy-water.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        <div class="poster hidden">
+          <img src="./media/Cloudy-water.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- why us -->
+    <div class="container">
       <div class="row whyUs">
         <h1 class="whyUs__head">Why Us?</h1>
 
@@ -91,5 +104,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
     <!-- my js -->
     <script src="./script/main.js"></script>
+    <!-- player js -->
+    <script src="./script/player.js"></script>
   </body>
 </html>

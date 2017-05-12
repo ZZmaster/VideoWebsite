@@ -2,17 +2,15 @@ html, body, div, h1, p, a, video, li .container-fluid { margin: 0; padding: 0; }
 
 body { font-family: "Oxygen" , sans-serif; background-color: #EAEAEA; }
 
-.videoDiv { height: 100vh; width: 100%; display: table; margin-bottom: 50px; }
+.contentWrapper { display: flex; align-items: center; height: 100vh; margin-bottom: 50px; }
 
-.content { z-index: 100; text-align: center; padding-bottom: 0; display: table-cell; vertical-align: middle; width: 100%; }
+.content { position: absolute; z-index: 100; text-align: center; width: 100%; }
 .content__heading { padding-bottom: 24px; color: #272727; font-size: 44px; }
 .content__teaser { padding-bottom: 24px; color: #595959; font-size: 22px; }
 .content__cta { display: inline-block; margin: 0; padding: 12px 48px; color: #ff3c64; font-size: 22px; text-decoration: none !important; border: 4px solid #ff3c64; }
 .content__cta:hover, .content__cta:focus { color: #ff3c64; }
 
-.video { position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: 100vh; z-index: -100; -ms-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -webkit-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); overflow: hidden; display: block; }
-
-.whyUs { padding-bottom: 50px; height: auto; overflow: hidden; }
+.whyUs { padding-top: 50px; padding-bottom: 50px; height: auto; overflow: hidden; }
 .whyUs__head { padding-bottom: 24px; color: #272727; font-size: 44px; text-align: center; }
 .whyUs__col { padding-bottom: 24px; color: #595959; font-size: 22px; }
 .whyUs__icon { margin: 0 auto; text-align: center; display: block; font-size: 44px; padding-bottom: 24px; color: #ff3c64; }

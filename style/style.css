@@ -86,10 +86,13 @@ body {
   background-size: cover;
   margin-bottom: 50px; }
 
+.water {
+  height: 50vh;
+  display: flex;
+  align-items: center; }
 .water__content {
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 2px solid white; }
+  background-color: rgba(0, 0, 0, 0.5); }
 .water__content h1 {
   margin-bottom: 24px;
   color: #ff3c64;

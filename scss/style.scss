@@ -125,11 +125,13 @@ body {
 }
 
 .water {
+  height: 50vh;
+  display: flex;
+  align-items: center;
 
   &__content {
     color: white;
     background-color: $paralaxBackColor;
-    border: 2px solid white;
 
 
     h1 {
